@@ -58,10 +58,9 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Employee.sql" />
-    <Build Include="Department.sql" />
+    <RefactorLog Include="EMS_DB.refactorlog" />
   </ItemGroup>
   <ItemGroup>
-    <RefactorLog Include="EMS_DB.refactorlog" />
+    <Build Include="script.sql" />
   </ItemGroup>
 </Project>
